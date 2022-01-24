@@ -1,0 +1,22 @@
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+}
+#advert input{
+    margin: 20px;
+    text-align: center;
+}
+.autoPictures{
+    display: grid;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.autopictures div{
+    min-height: 50px;
+}
+.autoPictures div img{
+    max-width: 100%;
+}
